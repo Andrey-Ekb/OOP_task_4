@@ -29,11 +29,11 @@ public class Main {
 
         customlist.removeFirst();
         System.out.println(customlist);
+        customlist.removeLast();
+        System.out.println(customlist);
 
         System.out.println();
         System.out.println("*** список с заменой элемента ***");
-        customlist.removeLast();
-        System.out.println(customlist);
         customlist.update(1, 5);
         System.out.println(customlist);
 
